@@ -79,5 +79,6 @@ class categorie extends Controller
               'message' => 'Data categories gagal dihapus'
           ]);            
       }
+      
   }
 }

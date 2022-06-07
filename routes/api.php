@@ -31,4 +31,3 @@ Route::get('categories/{id}', [categorie::class, 'getById']);
 Route::post('categories', [categorie::class, 'store']);
 Route::put('categories/{id}', [categorie::class, 'update']);
 Route::delete('categories/{id}', [categorie::class, 'delete']);
-      

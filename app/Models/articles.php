@@ -8,8 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class articles extends Model
 {
     use HasFactory;
-    protected $fileable = [
-        'category','title','description','content'
+    protected $fillable = [
+        'category_id', 'title', 'description', 'content', 'status'
     ];
-
 }
